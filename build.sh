@@ -4,6 +4,6 @@ rm -rf */*/*.class
 find ./ -name "*.java" > sources.txt
 
 # compile all!
-javac @sources.txt
+javac -cp jars/*:. @sources.txt
 
 rm -f sources.txt
