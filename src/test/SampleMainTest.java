@@ -8,6 +8,9 @@ public class SampleMainTest {
     @Test
     public void testSquare() {
         SampleMain sampleMain = new SampleMain();
-        assertEquals(sampleMain.square(4), 16);
+        assertEquals(
+                16,
+                sampleMain.square(4)
+        );
     }
 }
