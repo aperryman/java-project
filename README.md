@@ -10,5 +10,5 @@ https://manparvesh.com/post/2017-08-15-understand-java-project-structure/
 
 ## How to run
 * Go into the `src` directory.
-* Run the command `bash build.sh`
-* Run the command `java -enableassertions test.SampleMainTest`
+* Run the command `(cd .. && bash build.sh)`
+* Run the command `bash test.sh`
